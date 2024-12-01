@@ -16,6 +16,8 @@
 - **GPA Calculator**
   * This program calculates a student's GPA (Grade Point Average) based on their midterm and final exam scores. The program runs in a loop, allowing the user to input scores repeatedly. The user is first prompted to enter their midterm score, and the program validates that the input is between 0 and 100. If the user enters -1, the program exits with a goodbye message. Once a valid midterm score is provided, the user is asked to enter their final exam score, which is also validated to ensure it falls between 0 and 100. Using a weighted formula (40% midterm, 60% final), the program calculates the GPA and displays the result. The process continues until the user decides to exit by entering -1 for the midterm score.
 
+- **Number Guessing Game**
+  * This program is a simple Number Guessing Game implemented in C. The game generates a random number between 1 and 100, and the player has 10 chances to guess it correctly. After each guess, the program provides feedback—"UP" if the guess is too low, "DOWN" if it's too high, and a success message if the number is guessed correctly. At the end of the game, the player can choose to replay by entering 'Y' or exit by entering 'N'.
 
 
 
