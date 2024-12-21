@@ -16,6 +16,9 @@
 
 - **Number Guessing Game**
   * This program is a simple Number Guessing Game implemented in C. The game generates a random number between 1 and 100, and the player has 10 chances to guess it correctly. After each guess, the program provides feedback—"UP" if the guess is too low, "DOWN" if it's too high, and a success message if the number is guessed correctly. At the end of the game, the player can choose to replay by entering 'Y' or exit by entering 'N'.
+    
+- **Theatre Seat Manager**
+   * This program is a simple theatre seat management system written in C. It allows users to view seat availability, book seats, and cancel bookings through a menu-driven interface. The seat statuses are managed using a 2D array, with options for validation to ensure user-friendly operation. Perfect for learning basic programming concepts like arrays, enums, and user input handling.
 
 
 
