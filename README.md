@@ -1,5 +1,5 @@
 # Basic C Projects
-This repo includes the C programs I wrote during my first semester at Yaşar University. These mini-projects helped me understand the fundamentals of programming. You can find simple examples covering variables, loops, conditionals, functions, arrays, and pointers.
+A collection of simple C projects created for learning and practicing basic programming concepts. Suitable for beginners looking to enhance their coding skills.
 
 - **Basic ATM Application**
   * This program simulates a simple ATM system. The initial balance is 1000, and users can check their balance, deposit, withdraw, or exit. The balance updates after each transaction, and the program displays the result. It runs in a loop until the user chooses to exit with a “Goodbye!” message. Invalid inputs trigger a warning, and the user is asked to try again.
