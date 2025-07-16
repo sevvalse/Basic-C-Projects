@@ -1,26 +1,20 @@
 # Basic C Projects
- A collection of simple C projects created for learning and practicing basic programming concepts. Suitable for beginners looking to enhance their coding skills.
+This repo includes the C programs I wrote during my first semester at Yaşar University. These mini-projects helped me understand the fundamentals of programming. You can find simple examples covering variables, loops, conditionals, functions, arrays, and pointers.
 
 - **Basic ATM Application**
-  * This program allows users to perform basic banking transactions through an ATM system. Initially the account balance is set to 1000. The user is presented with a menu and options include checking balance, depositing, withdrawing funds or shutting down the system. The user makes a selection and the program performs the action based on the selection. It updates the balance in deposit or withdrawal transactions and writes the current status to the screen. The loop continues until the user chooses to exit, when exit is selected the program says “Goodbye!” It ends with the message. A warning is given for incorrect entries and the user is expected to enter correctly.
-    
+  * This program simulates a simple ATM system. The initial balance is 1000, and users can check their balance, deposit, withdraw, or exit. The balance updates after each transaction, and the program displays the result. It runs in a loop until the user chooses to exit with a “Goodbye!” message. Invalid inputs trigger a warning, and the user is asked to try again.
   
 - **Basic Calculator**
-  * This program is a simple calculator that performs basic arithmetic operations: addition, subtraction, multiplication, and division. Users select an option from a menu (1-5), input two numbers for operations, and see the result. Division checks for zero to prevent errors. Option 5 exits the program with a farewell. Invalid inputs prompt error messages, and the program runs until the user chooses to exit.
+  *This is a simple calculator that performs addition, subtraction, multiplication, and division. Users choose an option, enter two numbers, and see the result. Division checks for zero. Option 5 exits the program with a goodbye message. Invalid inputs show an error, and the program runs until exit is selected.
   
 - **Divisors**
-  * This program determines and prints all the divisors of a given number entered by the user. When the program runs, the user is prompted to input an integer. The divisors function then iterates through all numbers from 1 to the entered number and checks if each one divides the input number without leaving a remainder. If the condition is satisfied, the current number is a divisor, and it is printed. The program continues this process until all possible divisors of the input number are found and displayed. Finally, the program terminates successfully.
+  * This program finds and prints all divisors of a user-entered number. It checks numbers from 1 up to the input and prints those that divide it without a remainder. The program ends after showing all divisors.
   
 - **GPA Calculator**
-  * This program calculates a student's GPA based on their midterm (40%) and final exam (60%) scores. The user inputs scores, which are validated to be between 0 and 100. Entering -1 exits the program. After both scores are provided, the GPA is calculated and displayed. The process repeats until the user opts to quit.
+  *This program calculates a student’s GPA from midterm (40%) and final (60%) scores. Users enter scores between 0 and 100, or -1 to exit. After input, the GPA is calculated and shown. The process repeats until the user quits.
 
 - **Number Guessing Game**
-  * This program is a simple Number Guessing Game implemented in C. The game generates a random number between 1 and 100, and the player has 10 chances to guess it correctly. After each guess, the program provides feedback—"UP" if the guess is too low, "DOWN" if it's too high, and a success message if the number is guessed correctly. At the end of the game, the player can choose to replay by entering 'Y' or exit by entering 'N'.
+  * This C program is a Number Guessing Game. It picks a random number from 1 to 100, and the player has 10 tries to guess it. After each guess, the program says “UP” if too low, “DOWN” if too high, or a success message if correct. The player can replay or exit after the game.
     
 - **Theatre Seat Manager**
-   * This program is a simple theatre seat management system written in C. It allows users to view seat availability, book seats, and cancel bookings through a menu-driven interface. The seat statuses are managed using a 2D array, with options for validation to ensure user-friendly operation. Perfect for learning basic programming concepts like arrays, enums, and user input handling.
-
-
-
-
-
+   * This C program manages theatre seats using a menu. Users can view, book, or cancel seats stored in a 2D array. It includes input validation and helps learn arrays, enums, and user input handling.
