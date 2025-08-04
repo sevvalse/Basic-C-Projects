@@ -3,9 +3,8 @@
 #include <stdlib.h>
 
 void numguess() {
-    char answer; // Variable to store user's choice for replaying the game.
+    char answer;
     do {
-        // Welcome message for the player, explaining the game rules.
         printf("Hi! Welcome to the number guessing game. I've picked a number between 1 and 100. Can you figure it out with your guesses? You have 10 guesses. Let's get started!\n");
         int guess, counter = 1;
         srand(time(0)); // Seed the random number generator with the current time.

@@ -9,7 +9,7 @@ int gpa(int midterm, int final) {
 
 void main(void)
 {
-    int midterm, final; // Variables to store midterm and final scores
+    int midterm, final;
     while (1) { // Infinite loop to allow continuous input
         printf("Your Midterm Result (or -1 to exit):");
         scanf("%d", &midterm); // Prompt user for midterm score
@@ -28,10 +28,10 @@ void main(void)
                 break; // Exit inner loop if valid
             }
             else {
-                printf("Please enter a number between 0 and 100!\n"); // Error message for invalid input
+                printf("Please enter a number between 0 and 100!\n");
             }
         }
-        // Calculate and display the GPA based on the valid midterm and final scores
+        // Calculate and display the GPA
         printf("Your GPA is: %d\n", gpa(midterm, final));
     }
 }

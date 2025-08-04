@@ -1,8 +1,7 @@
 #include <stdio.h>
 
-// The myCalculator function performs the arithmetic operations.
 void myCalculator() {
-    int choice, number1, number2, result; // Variables for user choices and operations.
+    int choice, number1, number2, result;
 
     while (1) { // Infinite loop, continues until the user exits.
         // Displays the menu options to the user.
@@ -41,7 +40,7 @@ void myCalculator() {
             result = number1 / number2;
             printf("%d / %d = %d", number1, number2, result);
         }else if(choice == 5) {
-            printf("Goodbye!"); // Farewell message to the user.
+            printf("Goodbye!");
             break; // Exits the loop.
         }
     }
